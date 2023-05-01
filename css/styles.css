@@ -1,0 +1,183 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    background-color: rgb(29, 29, 29);
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #e5e7eb;
+}
+
+.mainContainer {
+    background-color: #1f2937;
+    width: 1280px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+/* HEADER================= */
+.header{
+
+    color: #f9faf8;
+}
+.navLogo{
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+    text-align: left;
+    flex: 1;
+
+}
+
+.navLogo ul {
+    margin: 0;
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+    flex: 1;
+}
+
+.navLogo a:hover {
+    text-decoration: underline;
+}
+
+
+.billboard {
+    display: flex;
+    justify-content:space-around;
+    padding: 0px 50px 50px 50px;
+    gap: 50px;
+
+}
+
+.billboardText {
+    
+}
+
+.billboard img {
+    width: 550px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight:bolder;
+    color: white;
+}
+
+
+/* TIPS================= */
+.tips{
+    color: #1f2937;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+.tips h2 {
+    margin-bottom: 50px;
+    font-size: 36px;
+}
+
+.everyTip {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+
+}
+
+.everyTip div {
+    text-align: center;
+    width: 170px;
+
+}
+
+.everyTip div img {
+    margin-bottom: 10px;
+    border: 4px #3882f6 solid;
+    border-radius: 20px;
+    
+
+}
+.everyTip div p {
+    color: #888;
+    margin: auto;
+}
+
+
+
+
+/* FRASE================= */
+.frase{
+    color: #999;
+    background-color: #e5e7eb;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: lighter;
+    padding:100px 200px;
+}
+
+.frase :last-child {
+    font-weight: bold;
+    text-align: right;
+    color: #333;
+}
+
+
+/* MORE================= */
+.more{
+    color: #1f2937;
+    background-color: white;
+    padding: 50px;
+
+}
+
+.moreContent {
+    background-color: #3882f6;
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: flex;
+    color: #e5e7eb;
+    justify-content: space-around;
+    align-content: center;
+}
+.more h3, p {
+    margin: 10px;
+}
+
+.lastMore {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.lastMore:hover {
+    border-color: #333;
+    color: #333;
+
+}
+
+
+
+/* FOOTER================= */
+.footer{
+    color: #f9faf8;
+    text-align: center;
+    padding: 10px;
+}
