@@ -1,2 +1,38 @@
 /* CSS for the landing page project */
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
 
+    
+}
+
+body > * {
+    border: 1px red solid;
+}
+
+.headerSection {
+    background-color: #1f2937;
+
+}
+
+.heroHeader {
+
+}
+
+.benefitsSection {
+
+}
+
+.quoteSection {
+    background-color: #e5e7eb;
+}
+
+.callToActionSection {
+
+}
+
+footer {
+    background-color: #1f2937;
+}
