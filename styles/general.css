@@ -4,29 +4,69 @@ body {
     flex-direction: column;
     margin: 0;
     font-family: Roboto, Arial, Helvetica, sans-serif;
+    height: 100vh;
 
     
 }
 
-body > * {
-    border: 1px red solid;
+button {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    padding: 8px 32px;
+    font-weight: bold;
+    border-radius: 8px;
 }
+
+ body > * {
+    /*border: 1px red solid;*/
+    padding: 8px;
+} 
+
+/* HEADER  */
 
 .headerSection {
     background-color: #1f2937;
+    color: #e5e7eb;
 
+}
+
+.navArea {
+    color: #f9faf8;
+}
+.navArea p {
+    font-size: 24px;
 }
 
 .heroHeader {
-
+    font-size: 48px;
+    font-weight:bolder;
+    color: #f9faf8;
 }
 
-.benefitsSection {
+/* BENEFITS SECTION */
 
+.benefitsSection h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
 }
 
+
+/* QUOTE SECTION */
 .quoteSection {
     background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    padding: 0 200px;
+
+}
+.infoSource {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
 }
 
 .callToActionSection {
@@ -35,4 +75,7 @@ body > * {
 
 footer {
     background-color: #1f2937;
+    margin-top: auto;
+    color: #e5e7eb;
+    text-align: center;
 }
