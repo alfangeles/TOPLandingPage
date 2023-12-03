@@ -5,6 +5,7 @@ body {
     margin: 0;
     font-family: Roboto, Arial, Helvetica, sans-serif;
     height: 100vh;
+    
 
     
 }
@@ -19,8 +20,9 @@ button {
 }
 
  body > * {
-    /*border: 1px red solid;*/
-    padding: 8px;
+    border: 1px red solid;
+    padding: 32px 10%;
+    
 } 
 
 /* HEADER  */
@@ -33,15 +35,38 @@ button {
 
 .navArea {
     color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
 }
 .navArea p {
     font-size: 24px;
+    font-weight: bold;
+}
+.mainMenu {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    
+}
+.mainMenu a {
+    color: white;
+    text-decoration: none;
 }
 
 .heroHeader {
     font-size: 48px;
     font-weight:bolder;
     color: #f9faf8;
+}
+.heroArea {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 32px 0;
+}
+.heroArea img {
+
 }
 
 /* BENEFITS SECTION */
