@@ -20,7 +20,7 @@ button {
 }
 
  body > * {
-    border: 1px red solid;
+    /* border: 1px red solid; */
     padding: 32px 10%;
     
 } 
@@ -70,12 +70,30 @@ button {
 }
 
 /* BENEFITS SECTION */
-
+.benefitsSection {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 .benefitsSection h2 {
     font-size: 36px;
     color: #1f2937;
     font-weight: bolder;
+    text-align: center;
 }
+.benefitsList {
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+}
+.benefitsItem {
+    width: 165px;
+    
+}
+.benefitsItem img {
+    border: #3882f6 4px solid;
+    border-radius: 16px;
+}
+ 
 
 
 /* QUOTE SECTION */
